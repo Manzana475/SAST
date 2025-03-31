@@ -1,0 +1,3 @@
+C:/Users/alman/Documents/CSCE413/Assignment 16/build/CMakeFiles/buffer.dir
+C:/Users/alman/Documents/CSCE413/Assignment 16/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/alman/Documents/CSCE413/Assignment 16/build/CMakeFiles/ZERO_CHECK.dir

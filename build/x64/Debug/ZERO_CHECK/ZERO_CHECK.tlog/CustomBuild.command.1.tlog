@@ -1,0 +1,10 @@
+^C:\USERS\ALMAN\DOCUMENTS\CSCE413\ASSIGNMENT 16\BUILD\CMAKEFILES\D05F61FFD4B28F448DB3ABF982E756E8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/alman/Documents/CSCE413/Assignment 16" "-BC:/Users/alman/Documents/CSCE413/Assignment 16/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/alman/Documents/CSCE413/Assignment 16/build/VulnerableApp.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

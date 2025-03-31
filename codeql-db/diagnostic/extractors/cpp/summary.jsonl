@@ -1,0 +1,28 @@
+{
+    "attributes": {
+        "cache-hits": 0,
+        "cache-misses": 1,
+        "compilers": [
+            {
+                "program": "cl",
+                "version": "Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64"
+            }
+        ],
+        "extractor-failures": 0,
+        "extractor-successes": 1,
+        "trap-caching": "disabled"
+    },
+    "markdownMessage": "Internal telemetry for the C++ extractor.\n\nNo action needed.",
+    "severity": "note",
+    "source": {
+        "extractorName": "cpp",
+        "id": "cpp/extractor/summary",
+        "name": "C++ extractor telemetry"
+    },
+    "timestamp": "2025-03-29T02:44:08.4669481-0600",
+    "visibility": {
+        "cliSummaryTable": false,
+        "statusPage": false,
+        "telemetry": true
+    }
+}

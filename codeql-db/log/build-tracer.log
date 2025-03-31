@@ -1,0 +1,303 @@
+[T 02:43:54 5040] Initializing tracer.
+[T 02:43:54 5040] Initializing tags.
+[T 02:43:54 5040] CodeQL CLI version 2.20.7
+[T 02:43:54 5040] Initializing tracer.
+[T 02:43:54 5040] Initializing tags.
+[T 02:43:54 5040] Allocated ID 53B51CF9000013B0_0000000000000001 (parent )
+[T 02:43:54 5040] ==== Candidate to intercept: C:\Users\alman\codeql\tools\win64\runner.exe (5360) ====
+[T 02:43:54 5040] Executing the following tracer actions:
+[T 02:43:54 5040] Tracer actions:
+[T 02:43:54 5040] pre_invocations(0)
+[T 02:43:54 5040] post_invocations(0)
+[T 02:43:54 5040] trace_languages(1): [cpp]
+[T 02:43:54 5360] Initializing tracer.
+[T 02:43:54 5360] Initializing tags.
+[T 02:43:54 5360] ID set to 53B51CF9000013B0_0000000000000001 (parent root)
+[T 02:43:55 5360] Allocated ID C60CF339000014F0_0000000000000001 (parent 53B51CF9000013B0_0000000000000001)
+[T 02:43:55 5360] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (24096) ====
+[T 02:43:55 5360] Executing the following tracer actions:
+[T 02:43:55 5360] Tracer actions:
+[T 02:43:55 5360] pre_invocations(0)
+[T 02:43:55 5360] post_invocations(0)
+[T 02:43:55 5360] trace_languages(1): [cpp]
+[T 02:43:55 24096] Initializing tracer.
+[T 02:43:55 24096] Initializing tags.
+[T 02:43:55 24096] ID set to C60CF339000014F0_0000000000000001 (parent 53B51CF9000013B0_0000000000000001)
+[T 02:43:55 24096] Allocated ID 2198134E00005E20_0000000000000001 (parent C60CF339000014F0_0000000000000001)
+[T 02:43:55 24096] ==== Candidate to intercept: C:\Program Files\CMake\bin\cmake.exe (27624) ====
+[T 02:43:55 24096] Executing the following tracer actions:
+[T 02:43:55 24096] Tracer actions:
+[T 02:43:55 24096] pre_invocations(0)
+[T 02:43:55 24096] post_invocations(0)
+[T 02:43:55 24096] trace_languages(1): [cpp]
+[T 02:43:55 27624] Initializing tracer.
+[T 02:43:55 27624] Initializing tags.
+[T 02:43:55 27624] ID set to 2198134E00005E20_0000000000000001 (parent C60CF339000014F0_0000000000000001)
+[T 02:43:55 27624] Allocated ID 040C818C00006BE8_0000000000000001 (parent 2198134E00005E20_0000000000000001)
+[T 02:43:55 27624] ==== Candidate to intercept: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe (12316) ====
+[T 02:43:55 27624] Executing the following tracer actions:
+[T 02:43:55 27624] Tracer actions:
+[T 02:43:55 27624] pre_invocations(0)
+[T 02:43:55 27624] post_invocations(0)
+[T 02:43:55 27624] trace_languages(1): [cpp]
+[T 02:43:55 12316] Initializing tracer.
+[T 02:43:55 12316] Initializing tags.
+[T 02:43:55 12316] ID set to 040C818C00006BE8_0000000000000001 (parent 2198134E00005E20_0000000000000001)
+[T 02:43:56 12316] Allocated ID FDC1B7780000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:43:56 12316] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (24500) ====
+[T 02:43:56 12316] Executing the following tracer actions:
+[T 02:43:56 12316] Tracer actions:
+[T 02:43:56 12316] pre_invocations(0)
+[T 02:43:56 12316] post_invocations(0)
+[T 02:43:56 12316] trace_languages(1): [cpp]
+[T 02:43:56 24500] Initializing tracer.
+[T 02:43:56 24500] Initializing tags.
+[T 02:43:56 24500] ID set to FDC1B7780000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:43:56 24500] Allocated ID 0C7E7DEA00005FB4_0000000000000001 (parent FDC1B7780000301C_0000000000000001)
+[T 02:43:56 24500] ==== Candidate to intercept: C:\Program Files\CMake\bin\cmake.exe (17280) ====
+[T 02:43:56 24500] Executing the following tracer actions:
+[T 02:43:56 24500] Tracer actions:
+[T 02:43:56 24500] pre_invocations(0)
+[T 02:43:56 24500] post_invocations(0)
+[T 02:43:56 24500] trace_languages(1): [cpp]
+[T 02:43:56 17280] Initializing tracer.
+[T 02:43:56 17280] Initializing tags.
+[T 02:43:56 17280] ID set to 0C7E7DEA00005FB4_0000000000000001 (parent FDC1B7780000301C_0000000000000001)
+[T 02:43:56 12316] Allocated ID B9D2D5D40000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:43:56 12316] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (17748) ====
+[T 02:43:56 12316] Executing the following tracer actions:
+[T 02:43:56 12316] Tracer actions:
+[T 02:43:56 12316] pre_invocations(0)
+[T 02:43:56 12316] post_invocations(0)
+[T 02:43:56 12316] trace_languages(1): [cpp]
+[T 02:43:56 17748] Initializing tracer.
+[T 02:43:56 17748] Initializing tags.
+[T 02:43:56 17748] ID set to B9D2D5D40000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:43:56 17748] Allocated ID 1F99D9D200004554_0000000000000001 (parent B9D2D5D40000301C_0000000000000001)
+[T 02:43:56 17748] ==== Candidate to intercept: C:\Program Files\CMake\bin\cmake.exe (9036) ====
+[T 02:43:56 17748] Executing the following tracer actions:
+[T 02:43:56 17748] Tracer actions:
+[T 02:43:56 17748] pre_invocations(0)
+[T 02:43:56 17748] post_invocations(0)
+[T 02:43:56 17748] trace_languages(1): [cpp]
+[T 02:43:56 9036] Initializing tracer.
+[T 02:43:56 9036] Initializing tags.
+[T 02:43:56 9036] ID set to 1F99D9D200004554_0000000000000001 (parent B9D2D5D40000301C_0000000000000001)
+[T 02:43:57 12316] Allocated ID 2B1171DE0000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:43:57 12316] ==== Candidate to intercept: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe (9032) ====
+[T 02:43:57 12316] Executing the following tracer actions:
+[T 02:43:57 12316] Tracer actions:
+[T 02:43:57 12316] pre_invocations(0)
+[T 02:43:57 12316] post_invocations(0)
+[T 02:43:57 12316] trace_languages(1): [cpp]
+[T 02:43:57 9032] Initializing tracer.
+[T 02:43:57 9032] Initializing tags.
+[T 02:43:57 9032] ID set to 2B1171DE0000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:43:57 9032] Allocated ID E2636B9B00002348_0000000000000001 (parent 2B1171DE0000301C_0000000000000001)
+[T 02:43:57 9032] ==== Candidate to intercept: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\Hostx64\x64\cl.exe (22716) ====
+[T 02:43:57 9032] Lua: === Intercepted call to c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.41.34120\bin\hostx64\x64\cl.exe ===
+[T 02:43:57 9032] Executing the following tracer actions:
+[T 02:43:57 9032] Tracer actions:
+[T 02:43:57 9032] pre_invocations(0)
+[T 02:43:57 9032] post_invocations(1)
+[T 02:43:57 9032] invocation: C:\Users\alman\codeql\cpp\tools\win64\extractor.exe, args: --mimic "c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.41.34120\bin\hostx64\x64\cl.exe" @C:\Users\alman\AppData\Local\Temp\MSBuildTemp\tmp900a8c9c019e4ec0abbd1984015010d5.rsp
+[T 02:43:57 9032] trace_languages(1): [cpp]
+[E 02:43:58 8092] CodeQL C/C++ Extractor 2.20.7
+[E 02:43:58 8092] Current directory: C:\Users\alman\Documents\CSCE413\Assignment 16\build
+[E 02:43:58 8092] Command: C:\Users\alman\codeql\cpp\tools\win64\extractor.exe --mimic "c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.41.34120\bin\hostx64\x64\cl.exe" @C:\Users\alman\AppData\Local\Temp\MSBuildTemp\tmp900a8c9c019e4ec0abbd1984015010d5.rsp
+[E 02:43:59 8092] Expanded response file C:\Users\alman\AppData\Local\Temp\MSBuildTemp\tmp900a8c9c019e4ec0abbd1984015010d5.rsp: /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fobuffer.dir\Debug\ /Fdbuffer.dir\Debug\vc143.pdb /external:W3 /Gd /TP /errorReport:queue "C:\Users\alman\Documents\CSCE413\Assignment 16\buffer_overflow.cpp"
+[E 02:43:59 8092] Checking whether C compilation already happened.
+[E 02:43:59 8092] Checking for tag c-compilation-happened
+[E 02:43:59 8092] Checking CODEQL_TRACER_DB_ID E2636B9B00002348_0000000000000001
+[E 02:43:59 8092] Locking DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:43:59 8092] Locked DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:43:59 8092] Unlocking DB
+[E 02:43:59 8092] Unlocked DB
+[E 02:43:59 8092] Looks like C compilation didn't already happen.
+[E 02:43:59 8092] Checking whether C compilation has been attempted.
+[E 02:43:59 8092] Checking for tag c-compilation-attempted
+[E 02:43:59 8092] Checking CODEQL_TRACER_DB_ID E2636B9B00002348_0000000000000001
+[E 02:43:59 8092] Locking DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:43:59 8092] Locked DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:43:59 8092] Unlocking DB
+[E 02:43:59 8092] Unlocked DB
+[E 02:43:59 8092] Marking C compilation as attempted.
+[E 02:43:59 8092] Setting tag c-compilation-attempted
+[E 02:43:59 8092] Starting from CODEQL_TRACER_DB_ID E2636B9B00002348_0000000000000001
+[E 02:43:59 8092] Locking DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:43:59 8092] Locked DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:43:59 8092] Set tag for E2636B9B00002348_0000000000000001
+[E 02:43:59 8092] Set tag for 2B1171DE0000301C_0000000000000001
+[E 02:43:59 8092] Set tag for 040C818C00006BE8_0000000000000001
+[E 02:43:59 8092] Set tag for 2198134E00005E20_0000000000000001
+[E 02:43:59 8092] Set tag for C60CF339000014F0_0000000000000001
+[E 02:43:59 8092] Set tag for 53B51CF9000013B0_0000000000000001
+[E 02:43:59 8092] Unlocking DB
+[E 02:43:59 8092] Unlocked DB
+[E 02:44:01 8092] Processed command line: C:\Users\alman\codeql\cpp\tools\win64\extractor.exe --trapfolder "C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\trap\cpp" --src_archive "C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src" --object_filename buffer.dir\Debug\ --no_warnings_and_discretionary_errors --error_limit 1000 --disable_system_macros --variadic_macros --incognito --microsoft --c++ --microsoft_version 1941 --target win64 -D_MSC_FULL_VER=194134120 -D_MSC_BUILD=0 -D_M_AMD64=100 -D_M_X64=100 -D_WIN64 -D_CPPUNWIND -D__MSVC_RUNTIME_CHECKS -D_DEBUG -D_MT -D_DLL -D_MBCS -DWIN32 -D_WINDOWS "-DCMAKE_INTDIR=\"Debug\"" --default_calling_convention __cdecl --import_dir buffer.dir\Debug --wchar_t_keyword --new_for_init --rtti "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\atlmfc\include" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt" "-IC:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\winrt" "-IC:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\cppwinrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um" -- "C:\Users\alman\Documents\CSCE413\Assignment 16\buffer_overflow.cpp"
+[E 02:44:01 8092] CODEQL_EXTRACTOR_CPP_TRAP_CACHING is not set
+[E 02:44:01 8092] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_WRITE is not set
+[E 02:44:01 8092] CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_DIR is not set
+[E 02:44:01 8092] Initialising TRAP cache at path: \\?\C:\Users\alman\Documents\CSCE413\Assignment 16\build\85\2f79\7994685422b945ea3f65fae1f21a
+[E 02:44:01 8092] Not using TRAP cache
+[E 02:44:01 8092] TRAP cache miss
+[E 02:44:01 8092] Starting compilation TRAP C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\trap\cpp/compilations/42/61463848_0.trap.zst
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Users/alman/Documents/CSCE413/Assignment 16/buffer_overflow.cpp
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/iostream
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/yvals_core.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vcruntime.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/sal.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/concurrencysal.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vadefs.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xkeycheck.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/istream
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/ostream
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/ios
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xlocnum
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cfloat
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/float.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/climits
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/limits.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cmath
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/yvals.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/crtdbg.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vcruntime_new_debug.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vcruntime_new.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/crtdefs.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/use_ansi.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cstdlib
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/math.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_math.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/stdlib.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_malloc.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_search.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/stddef.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wstdlib.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xtr1common
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/intrin0.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/intrin0.inl.h
+[E 02:44:02 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cstdio
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/stdio.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wstdio.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_stdio_config.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/iterator
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/iosfwd
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cstring
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/string.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_memory.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_memcpy_s.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/errno.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vcruntime_string.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wstring.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cwchar
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/wchar.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wconio.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wctype.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wdirect.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wio.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_share.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wprocess.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_wtime.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/sys/stat.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/sys/types.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xutility
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/__msvc_iter_core.hpp
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/utility
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/initializer_list
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cstddef
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/type_traits
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cstdint
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/stdint.h
+[E 02:44:03 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/streambuf
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xiosbase
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/share.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/system_error
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/__msvc_system_error_abi.hpp
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cerrno
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/stdexcept
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/exception
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/malloc.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vcruntime_exception.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/eh.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/corecrt_terminate.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xstring
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/__msvc_sanitizer_annotate_container.hpp
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/__msvc_string_view.hpp
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xmemory
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/limits
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/new
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xatomic.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xcall_once.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xerrc.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/atomic
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xthreads.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/__msvc_threads_core.hpp
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xtimec.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/ctime
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/time.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xlocale
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/memory
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/typeinfo
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/vcruntime_typeinfo.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xfacet
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/xlocinfo
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/__msvc_xlocinfo_types.hpp
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/cctype
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/ctype.h
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/include/clocale
+[E 02:44:04 8092] Archiving C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\src/C_/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt/locale.h
+[E 02:44:05 8092] Creating trap tarball C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\trap\cpp/tarballs/C_/Users/alman/Documents/CSCE413/Assignment 16/buffer_overflow.cpp.fba58298_0.trap.tar.zst
+[E 02:44:05 8092] Emitting trap files for C:\Users\alman\Documents\CSCE413\Assignment 16\buffer_overflow.cpp
+[E 02:44:05 8092] Opening existencedb in \\?\C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working\existencedb\db
+[E 02:44:06 8092] Warning[extractor-c++]: In add_constructor_init: Unexpected dynamic init kind 1.
+[E 02:44:06 8092] Wrote 3109 files to C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\trap\cpp/tarballs/C_/Users/alman/Documents/CSCE413/Assignment 16/buffer_overflow.cpp.fba58298_0.trap.tar.zst
+[E 02:44:06 8092] Finished compilation TRAP C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\trap\cpp/compilations/42/61463848_0.trap.zst
+[E 02:44:06 8092] Marking C compilation as happened.
+[E 02:44:06 8092] Setting tag c-compilation-happened
+[E 02:44:06 8092] Starting from CODEQL_TRACER_DB_ID E2636B9B00002348_0000000000000001
+[E 02:44:06 8092] Locking DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:44:06 8092] Locked DB C:\Users\alman\Documents\CSCE413\Assignment 16\codeql-db\working/tags.db
+[E 02:44:07 8092] Set tag for E2636B9B00002348_0000000000000001
+[E 02:44:07 8092] Set tag for 2B1171DE0000301C_0000000000000001
+[E 02:44:07 8092] Set tag for 040C818C00006BE8_0000000000000001
+[E 02:44:07 8092] Set tag for 2198134E00005E20_0000000000000001
+[E 02:44:07 8092] Set tag for C60CF339000014F0_0000000000000001
+[E 02:44:07 8092] Set tag for 53B51CF9000013B0_0000000000000001
+[E 02:44:07 8092] Unlocking DB
+[E 02:44:07 8092] Unlocked DB
+[E 02:44:07 8092] Extractor exited successfully
+[T 02:44:07 12316] Allocated ID 8D2849730000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:44:07 12316] ==== Candidate to intercept: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe (10268) ====
+[T 02:44:07 12316] Executing the following tracer actions:
+[T 02:44:07 12316] Tracer actions:
+[T 02:44:07 12316] pre_invocations(0)
+[T 02:44:07 12316] post_invocations(0)
+[T 02:44:07 12316] trace_languages(1): [cpp]
+[T 02:44:07 10268] Initializing tracer.
+[T 02:44:07 10268] Initializing tags.
+[T 02:44:07 10268] ID set to 8D2849730000301C_0000000000000001 (parent 040C818C00006BE8_0000000000000001)
+[T 02:44:07 10268] Allocated ID 986FCFD00000281C_0000000000000001 (parent 8D2849730000301C_0000000000000001)
+[T 02:44:07 10268] ==== Candidate to intercept: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\Hostx64\x64\link.exe (26824) ====
+[T 02:44:07 10268] Lua: === Intercepted call to c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.41.34120\bin\hostx64\x64\link.exe ===
+[T 02:44:07 10268] Executing the following tracer actions:
+[T 02:44:07 10268] Tracer actions:
+[T 02:44:07 10268] pre_invocations(0)
+[T 02:44:07 10268] post_invocations(1)
+[T 02:44:07 10268] invocation: C:\Users\alman\codeql\cpp\tools\win64\extractor.exe, args: --ms-linker --semmle-linker-executable "c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.41.34120\bin\hostx64\x64\link.exe" /ERRORREPORT:QUEUE @C:\Users\alman\AppData\Local\Temp\MSBuildTemp\tmpafafa0cdfd574094bdb568536da107da.rsp
+[T 02:44:07 10268] trace_languages(1): [cpp]
+[E 02:44:07 16004] CodeQL C/C++ Extractor 2.20.7
+[E 02:44:07 16004] Current directory: C:\Users\alman\Documents\CSCE413\Assignment 16\build
+[E 02:44:07 16004] Command: C:\Users\alman\codeql\cpp\tools\win64\extractor.exe --ms-linker --semmle-linker-executable "c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.41.34120\bin\hostx64\x64\link.exe" /ERRORREPORT:QUEUE @C:\Users\alman\AppData\Local\Temp\MSBuildTemp\tmpafafa0cdfd574094bdb568536da107da.rsp
+[E 02:44:07 16004] Expanded response file C:\Users\alman\AppData\Local\Temp\MSBuildTemp\tmpafafa0cdfd574094bdb568536da107da.rsp: "/OUT:C:\Users\alman\Documents\CSCE413\Assignment 16\build\Debug\buffer.exe" /INCREMENTAL /ILK:buffer.dir\Debug\buffer.ilk /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:C:/Users/alman/Documents/CSCE413/Assignment 16/build/Debug/buffer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:/Users/alman/Documents/CSCE413/Assignment 16/build/Debug/buffer.lib" /MACHINE:X64 /machine:x64 buffer.dir\Debug\buffer_overflow.obj
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "kernel32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "user32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "gdi32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "winspool.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "shell32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "ole32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "oleaut32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "uuid.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "comdlg32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Warning[extractor-c++]: In print_object_names: Could not open object file "advapi32.lib" (error 2: No such file or directory).
+[E 02:44:07 16004] Extractor exited after mimicking linker
